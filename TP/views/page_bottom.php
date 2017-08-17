@@ -3,7 +3,7 @@
  *
  */
 
-$date = date(j, time()).date(F,time()).date(y ,time());
+$date = date('j', time()).date('F',time()).date('y' ,time());
 
 ?>
 

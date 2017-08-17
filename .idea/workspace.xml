@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8930b3b8-0d16-485b-9b4e-360711361924" name="Default" comment="" />
+    <list default="true" id="8930b3b8-0d16-485b-9b4e-360711361924" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP/views/page_bottom.php" afterPath="$PROJECT_DIR$/TP/views/page_bottom.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +63,8 @@
       <file leaf-file-name="page_top.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/views/page_top.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="256">
+              <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -71,9 +73,12 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="224">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <marker date="1503000342584" expanded="true" signature="359:367" ph="..." />
+                <marker date="1503000342584" expanded="true" signature="359:375" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,7 +88,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
               <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#6#16#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,7 +102,8 @@
               <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding>
                 <element signature="e#6#16#0#PHP" expanded="true" />
-                <marker date="1503000220137" expanded="true" signature="184:817" ph="..." />
+                <marker date="1503000675789" expanded="true" signature="92:124" ph="..." />
+                <marker date="1503000675789" expanded="true" signature="190:823" ph="..." />
               </folding>
             </state>
           </provider>
@@ -185,6 +193,12 @@
               <item name="TP" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="db" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="TP-Gaetan-Marc-Camil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TP-Gaetan-Marc-Camil" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -222,12 +236,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502992047447</updated>
-      <workItem from="1502992048975" duration="8171000" />
+      <workItem from="1502992048975" duration="8629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8171000" />
+    <option name="totallyTimeSpent" value="8629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="800" height="856" extended-state="0" />
@@ -350,19 +364,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/views/page_top.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="224">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1503000342584" expanded="true" signature="359:367" ph="..." />
+            <marker date="1503000342584" expanded="true" signature="359:375" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -370,6 +379,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#16#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/views/page_top.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -380,7 +399,8 @@
           <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
             <element signature="e#6#16#0#PHP" expanded="true" />
-            <marker date="1503000220137" expanded="true" signature="184:817" ph="..." />
+            <marker date="1503000675789" expanded="true" signature="92:124" ph="..." />
+            <marker date="1503000675789" expanded="true" signature="190:823" ph="..." />
           </folding>
         </state>
       </provider>
