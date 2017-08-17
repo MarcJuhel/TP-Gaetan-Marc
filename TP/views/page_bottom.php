@@ -21,10 +21,9 @@ $date = date(j, time()).date(F,time()).date(y ,time());
 
 
     echo '<div id="rezosocio">';
-    echo '<a class="rezo footer" href="www.facebook.com"><img class="rezo footer" src="../image/fb.jpg"></a>';
-    echo '<a class="rezo footer" href="www.twitter.com"><img class="rezo footer" src="../image/twit.png"></a>';
-    echo '<a class="rezo footer" href="www.instagram.com"><img class="rezo footer" src="../image/inst.jpg"></a>';
-    echo '<a class="rezo footer" href="www.youtube.com"><img class="rezo footer" src="../image/yt.jpg"></a>';
+    echo '<a class="rezo footer" href="www.facebook.com"><img class="rezo footer" src="../image/facebook_r.jpg"></a>';
+    echo '<a class="rezo footer" href="www.twitter.com"><img class="rezo footer" src="../image/twitter_r.png"></a>';
+    echo '<a class="rezo footer" href="www.instagram.com"><img class="rezo footer" src="../image/mail_r.png"></a>';
     echo '</div>';
 
     ?>
