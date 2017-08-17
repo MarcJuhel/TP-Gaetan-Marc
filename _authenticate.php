@@ -2,9 +2,9 @@
 
 function authenticate($username, $password) {
     $users = array(
-        'brice' => '456',
-        'hatem' => '789',
-        'tania' => '101',
+        'marc' => '123',
+        'gaetan' => '456',
+        'camil' => '789',
     );
     return true;
 }
