@@ -19,7 +19,6 @@ $date = date(j, time()).date(F,time()).date(y ,time());
 
     echo '<span id="coor1" class="footer span">Nos coordonnées : </span> <span id="coor2" class="footer span">12345 rue de la chaudière <br>H2D 4P5<br>Montréal</span>';
 
-    echo '<span>test</span>';
 
     echo '<div id="rezosocio">';
     echo '<a class="rezo footer" href="www.facebook.com"><img class="rezo footer" src="../image/facebook_r.jpg"></a>';
