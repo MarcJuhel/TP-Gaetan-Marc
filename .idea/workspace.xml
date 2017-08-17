@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8930b3b8-0d16-485b-9b4e-360711361924" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP/views/menu.php" afterPath="$PROJECT_DIR$/TP/views/menu.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP/views/page_bottom.php" afterPath="$PROJECT_DIR$/TP/views/page_bottom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP/views/page_top.php" afterPath="$PROJECT_DIR$/TP/views/page_top.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,8 +65,8 @@
       <file leaf-file-name="page_top.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/views/page_top.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="619">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,11 +88,9 @@
       <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/views/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#16#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,12 +98,12 @@
       <file leaf-file-name="page_bottom.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TP/views/page_bottom.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="416">
+              <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
               <folding>
                 <element signature="e#6#16#0#PHP" expanded="true" />
-                <marker date="1503000675789" expanded="true" signature="92:124" ph="..." />
-                <marker date="1503000675789" expanded="true" signature="190:823" ph="..." />
+                <marker date="1503001294066" expanded="true" signature="92:122" ph="..." />
+                <marker date="1503001294066" expanded="true" signature="188:820" ph="..." />
               </folding>
             </state>
           </provider>
@@ -114,16 +114,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="16">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="11" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conn.php" pinned="false" current-in-tab="false">
-        <entry file="file://V:/P62/TP/db/P62_DB_kitDem/conn.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="19" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -141,6 +131,7 @@
         <option value="$PROJECT_DIR$/TP/common/utils.php" />
         <option value="$PROJECT_DIR$/TP/login.php" />
         <option value="$PROJECT_DIR$/TP/views/menu.php" />
+        <option value="$PROJECT_DIR$/TP/views/page_top.php" />
         <option value="$PROJECT_DIR$/TP/views/page_bottom.php" />
       </list>
     </option>
@@ -156,6 +147,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="800" />
     <option name="width" value="800" />
     <option name="height" value="856" />
   </component>
@@ -192,6 +184,12 @@
               <item name="TP-Gaetan-Marc-Camil" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="TP" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="db" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TP-Gaetan-Marc-Camil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TP-Gaetan-Marc-Camil" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="style" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="TP-Gaetan-Marc-Camil" type="b2602c69:ProjectViewProjectNode" />
@@ -236,15 +234,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502992047447</updated>
-      <workItem from="1502992048975" duration="8629000" />
+      <workItem from="1502992048975" duration="9225000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8629000" />
+    <option name="totallyTimeSpent" value="9225000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="800" height="856" extended-state="0" />
+    <frame x="800" y="0" width="800" height="856" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24873738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -375,32 +373,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/views/menu.php">
+    <entry file="file://$PROJECT_DIR$/TP/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#16#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="-336">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TP/views/page_top.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="619">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/views/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TP/views/page_bottom.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="416">
+          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding>
             <element signature="e#6#16#0#PHP" expanded="true" />
-            <marker date="1503000675789" expanded="true" signature="92:124" ph="..." />
-            <marker date="1503000675789" expanded="true" signature="190:823" ph="..." />
+            <marker date="1503001294066" expanded="true" signature="92:122" ph="..." />
+            <marker date="1503001294066" expanded="true" signature="188:820" ph="..." />
           </folding>
         </state>
       </provider>

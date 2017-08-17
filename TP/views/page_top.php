@@ -5,20 +5,6 @@ $twitter = "image/twitter_r.png";
 $courriel = "image/mail_r.png";
 $librairie ="image/bouton-la librairie.png";
 $cafe = "image/bouton-le cafe.png";
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <style>
-
-    </style>
-  <meta charset="UTF-8">
-  <title></title>
-</head>
-<body>
-<div>
-<header>
-<?php
 
 print '<a href="http://www.index.html/"><img src= "'.$image.'" alt="" />';
 require_once 'menu.php';
@@ -54,8 +40,5 @@ print '<a href="http://www.otakulounge.com/Salon/contact/"><img src= "'.$courrie
 print '<a href="http://www.otakulounge.com/Salon/librairie-o-taku-manga-lounge"><img src= "'.$librairie.'" alt="" />';
 print '<a href="http://www.otakulounge.com/Salon/salon-de-lecture"><img src= "'.$cafe.'" alt="" />';
 print '<a href="http://www.otakulounge.com/Salon/le-cafe"><img src= "'.$courriel.'" alt="" />';
-?>
-</header>
-</div>
-</body>
-</html>
+
+

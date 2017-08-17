@@ -8,8 +8,6 @@ $date = date('j', time()).date('F',time()).date('y' ,time());
 ?>
 
 <footer>
-
-
     <?php
 
 
@@ -27,5 +25,4 @@ $date = date('j', time()).date('F',time()).date('y' ,time());
     echo '</div>';
 
     ?>
-
 </footer>
