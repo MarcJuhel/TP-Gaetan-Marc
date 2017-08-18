@@ -1,13 +1,16 @@
 <?php
 
+session_start();
+
 const PANIER = 'panier';
 const MDP = 'password';
 
-$user = array();
+$user = $_SESSION['user'];
 
 function signin($username,$password){
     global $user;
     $user[$username][MDP] = md5($password);
+    $_SESSION['user'] = $user;
 };
 
 function authenticate($username, $password)
