@@ -22,6 +22,7 @@ Fait apparaitre tout le header ainsi que le doctype, reste juste a en fair l'ech
 
 Voici donc un exemple de page vide: 
 <?php
+/*
 require_once 'views/page_top.php';
 $image = "http://138.68.233.236/wp-content/uploads/2015/07/amazon-2015-v2.png";
 require_once 'common/utils.php';
@@ -35,5 +36,5 @@ require_once 'views/page_bottom.php';
 
 
 
-echo '</body></html>';
+echo '</body></html>';*/
 
