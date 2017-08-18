@@ -13,3 +13,9 @@ Nom du site:  nozama.com
 Concept :  vente de manga, anime, goodies japonnais et nouilles instentanné.
 
 présence d'un login, un panier et d'un formulaire.
+
+
+NOUVELLE FONCTION DANS common/utils : creatHeader(titre, description, cheminCSS, cheminJS){
+Fait apparaitre tout le header ainsi que le doctype, reste juste a en fair l'echo.
+};
+
