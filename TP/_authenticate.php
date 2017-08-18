@@ -1,21 +1,21 @@
 <?php
-require_once 'views/page_top.php';
-$image = "http://138.68.233.236/wp-content/uploads/2015/07/amazon-2015-v2.png";
-require_once 'common/utils.php';
-creatHeader('Nozama','Site de vente de goodies et bandes dessiné nippon', 'style/main.css','js/main.js');
-echo '<html><body>';
-require_once 'views/page_top.php';
 
+const PANIER = 'panier';
+const MDP = 'password';
 
+$user = array();
 
+function signin($username,$password){
+    global $user;
+    $user[$username][MDP] = md5($password);
+};
 
+function authenticate($username, $password)
+{
+    global $user;
+    if($result = array_key_exists($username, $user) && (md5($password) === $user[$username][MDP])){
+        return $user[$username];
+    }else return false;
+//    var_dump(md5($password),$result);
 
-
-
-
-
-
-
-
-require_once 'views/page_bottom.php';
-echo '</body></html>';
+}
