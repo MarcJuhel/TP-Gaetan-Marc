@@ -9,22 +9,14 @@ require_once 'views/page_top.php';
 
 
 
-echo '<h3>Prochains evenements</h3>';
-echo '<a href=""><img src= "'.$cinema.'" alt="" />';
-echo '<a href=""><img src= "'.$jeuxsociete.'" alt="" />';
-
-echo '<a href=""><img src= "'.$ateliers.'" alt="" />';
-
-echo '<a href=""><img src= "'.$cours1.'" alt="" />';
-
-echo '<h3>Carte de membre</h3>';
-echo '<a href=""><img src= "'.$cartemembre.'" alt="" />';
-echo '<p>-10% sur l\'achat de tous vos mangas!</p>';
-echo '<p>+</p>';
-echo '<p>journée de lecture offerte par mois</p>';
-
-echo'<h3>Cadeau à faire : visez juste</h3>';
-echo '<a href=""><img src= "'.$cartecadeau.'" alt="" />';
+echo '<h3>Prochains evenements</h3><a href=""><img src= "'.$cinema.'" alt="" />
+<a href=""><img src= "'.$jeuxsociete.'" alt="" /><a href=""><img src= "'.$ateliers.'" alt="" />
+<a href=""><img src= "'.$cours1.'" alt="" /><h3>Carte de membre</h3>
+<a href=""><img src= "'.$cartemembre.'" alt="" />
+<p>-10% sur l\'achat de tous vos mangas!</p>
+<span>+</span><p>journée de lecture offerte par mois</p>
+<h3>Cadeau à faire : visez juste</h3>
+<a href=""><img src= "'.$cartecadeau.'" alt="" />';
 
 
 
