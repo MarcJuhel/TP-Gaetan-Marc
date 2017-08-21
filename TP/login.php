@@ -1,47 +1,23 @@
 <?php
-
-require_once('_authenticate.php');
-const P_SESS_USERNAME = 'P_SESS_USERNAME';
 session_start();
+if(!array_key_exists('login',$_SESSION)){$_SESSION['login']=false;};
+$image = "http://138.68.233.236/wp-content/uploads/2015/07/amazon-2015-v2.png";
+require_once 'common/utils.php';
+creatHeader('Nozama','Site de vente de goodies et bandes dessiné nippon', 'style/main.css','js/main.js');
+echo '<html><body>';
+require_once 'views/page_top.php';
+
+echo
+    '<label for="user">Username</label><input type ="username" name="user"/>
+
+    <label for="mdp"/>Mot de passe</label><input type ="password" name="mdp"/> 
+    
+    <input type ="submit" value ="Login" />';
+        
+        
+        
+
+require_once 'views/page_bottom.php';
+echo '</body></html>';
 
 
-function user_is_logged(){
-    return (array_key_exists(P_SESS_USERNAME, $_SESSION)
-        && ! empty($_SESSION[P_SESS_USERNAME]));
-}
-
-authenticate('','')
-
-?>
-
-<!DOCTYPE html>
-<html>
-<head lang="en">
-  <meta charset="UTF-8">
-  <title>Accueil</title>
-</head>
-<body>
-<header>
-<h1>Vous êtes sur la page d'accueil</h1>
-    <?php require_once '_authenticate.php'?>
-</header>
-
-<?php if (user_is_logged()): ?>
-    return true;
-    <input type ="submit"  value ="Logout" />
-
-<?php else: ?>
-
-
-    <input type ="username" />
-
-    <input type ="password" />
-    <br>
-    </br>
-    <input type ="submit" value ="Login" /><br>
-
-<?php endif ?>
-
-
-</body>
-</html>

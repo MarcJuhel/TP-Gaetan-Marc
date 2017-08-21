@@ -13,9 +13,7 @@ $cours1 = "image/cours japonais 1.jpg";
 $cartemembre ="image/carte avantages.png";
 $cartecadeau = "image/certificat cadeau.jpg";
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
+
     <style>
 
         /*carrousel*/
@@ -243,34 +241,11 @@ $cartecadeau = "image/certificat cadeau.jpg";
         </section>
     </main>
 <?php
-echo '<a href="http://www.index.html/"><img src= "'.$image.'" alt="" />';
+echo '<a href="http://www.index.php/"><img src= "'.$image.'" alt="" />';
 require_once 'menu.php';
-echo '<a href="https://www.facebook.com/Otakumangalounge/"><img src= "'.$facebook.'" alt="" />';
-echo '<a href="https://twitter.com/OTAKU_Lounge"><img src= "'.$twitter.'" alt="" />';
-echo '<a href="http://www.otakulounge.com/Salon/contact/"><img src= "'.$courriel.'" alt="" />';
 
-echo '<a href="http://www.otakulounge.com/Salon/librairie-o-taku-manga-lounge"><img src= "'.$librairie.'" alt="" />';
-echo '<a href="http://www.otakulounge.com/Salon/salon-de-lecture"><img src= "'.$cafe.'" alt="" />';
-echo '<a href="http://www.otakulounge.com/Salon/le-cafe"><img src= "'.$salon.'" alt="" />';
-
-echo '<h3>Prochains evenements</h3>';
-echo '<a href=""><img src= "'.$cinema.'" alt="" />';
-echo '<a href=""><img src= "'.$jeuxsociete.'" alt="" />';
-
-echo '<a href=""><img src= "'.$ateliers.'" alt="" />';
-
-echo '<a href=""><img src= "'.$cours1.'" alt="" />';
-
-echo '<h3>Carte de membre</h3>';
-echo '<a href=""><img src= "'.$cartemembre.'" alt="" />';
-echo '<p>-10% sur l\'achat de tous vos mangas!</p>';
-echo '<p>+</p>';
-echo '<p>journée de lecture offerte par mois</p>';
-
-echo'<h3>Cadeau à faire : visez juste</h3>';
-echo '<a href=""><img src= "'.$cartecadeau.'" alt="" />';
+        
+   
+        
+        
 ?>
-</header>
-</div>
-</body>
-</html>

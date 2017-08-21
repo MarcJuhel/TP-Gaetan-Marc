@@ -2,24 +2,15 @@
 /**
  *
  */
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-</head>
-<body>
-<?php
-
-echo '<nav><ul><li>ACCUEIL+</li></ul>';
-echo '<ul><li>INFO+</li></ul>';
-echo '<ul><li>MANGAS+</li></ul>';
-echo '<ul><li>BOUTIQUE+</li></ul>';
-echo '<ul><li>PRESSE+</li></ul></nav>';
 
 
-?>
+echo '<nav><ul>
+<li><a href="index.php">ACCEUIL</a></li>
+<li><a href="catalogue.php">BOUTIQUE</a></li>
+<li><a href="panier.php">PANIER</a></li>
+<li>';
+if($_SESSION['login'] == true){
+echo '<a href="login.php">LOGOUT</a>';
+}else{echo '<a href="login.php">LOGIN</a>';}
+echo '</li></nav> </ul>';
 
-</body>
-</html>
