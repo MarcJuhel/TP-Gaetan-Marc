@@ -2,69 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8930b3b8-0d16-485b-9b4e-360711361924" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/_authenticate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/catalogue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/common/utils.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/data/data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/P62_DB_kitDem/article.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/P62_DB_kitDem/common.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/P62_DB_kitDem/conn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/P62_DB_kitDem/defines.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/P62_DB_kitDem/fixture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/P62_DB_kitDem/schema.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/P62_DB_kitDem/test/test_uc_article.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/P62_DB_kitDem/test/test_uc_user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/P62_DB_kitDem/user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/P62_DB_kitDem_lite/conn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/P62_DB_kitDem_lite/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/P62_DB_kitDem_lite/ma_boutique.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/P62_DB_kitDem_lite/ma_boutique_2.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/P62_DB_kitDem_lite/password_functs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/P62_DB_kitDem_lite/schema.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/P62_DB_kitDem_lite/schema_2.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/clone_proto_p62.sql.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/p62_dbkitdem.sql.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/p62_dbkitdem_lite.sql.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/db/script_bd_simple.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/Cahier-Death-Note-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/Fairy-Tail-Poster-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/Kimono-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/My_Hero_Academia-poster-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/Naruto-Kunai-Chopsticks-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/Naruto-shuriken-spinner-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/background-lerger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/boite-carte-vanguard-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/boite-carte-yugioh-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/boken-wooden-katana-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/bouton-la librairie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/bouton-le cafe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/bouton-salon lecture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/chapeau-ash-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/digivice-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/facebook_r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/figurine-gundam-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/figurine-kill-la-kill-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/figurine-naruto-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/kunai-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/mail_r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/manteau-dans-naruto-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/poster-gurren-laggan-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/poster-naruto-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/poster-one-piece-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/poster-reborn-leger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/image/twitter_r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/js/JS_ORDERS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/panier.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/style/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/views/loginout_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/views/menu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/views/page_bottom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TP/views/page_top.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/main.css" afterPath="$PROJECT_DIR$/style/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -143,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/style/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="393">
-              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+              <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -282,12 +220,12 @@
       <workItem from="1503069512601" duration="4316000" />
       <workItem from="1503318728001" duration="226000" />
       <workItem from="1503334554603" duration="6473000" />
-      <workItem from="1503341120691" duration="2148000" />
+      <workItem from="1503341120691" duration="2235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22578000" />
+    <option name="totallyTimeSpent" value="22665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="800" y="0" width="800" height="856" extended-state="0" />
@@ -483,7 +421,7 @@
     <entry file="file://$PROJECT_DIR$/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
           <folding />
         </state>
       </provider>
