@@ -1,14 +1,19 @@
 <?php
+
+
 session_start();
 if(!array_key_exists('login',$_SESSION)){$_SESSION['login']=false;};
 $image = "http://138.68.233.236/wp-content/uploads/2015/07/amazon-2015-v2.png";
 
 require_once 'views/page_top.php';
 
-echo '<h3>Prochains evenements</h3><a href=""><img src= "image/cinema.jpg" alt="" />
+echo '
+<div id="event">
+<h3>Prochains evenements</h3><a href=""><img src= "image/cinema.jpg" alt="" />
 <a href=""><img src= "image/jeuxsociete.jpg" alt="" /></a>
 <a href=""><img src= "image/ateliers.jpg" alt="" /></a>
 <a href=""><img src= "image/cours-japonais.jpg" alt="" /></a>
+</div>
 
 <div id="grosseDiv">
 <div id="carteMembre">
@@ -19,8 +24,9 @@ echo '<h3>Prochains evenements</h3><a href=""><img src= "image/cinema.jpg" alt="
 <span>+</span><p>journée de lecture offerte par mois</p>
 </div>
 
+<div id="titeDiv">
 <h3>Cadeau à faire : visez juste</h3>
-<a href=""><img src= "image/certificat-cadeau.jpg" alt="" /></a></div>';
+<a href=""><img src= "image/certificat-cadeau.jpg" alt="" /></a></div></div>';
 
 
 
