@@ -118,3 +118,24 @@ width: 30%;
 footer{
     margin-top: 50px;
 }
+
+h2{
+    margin-top: 100px;
+    color: blue;
+    text-decoration: underline;
+    text-shadow: 3px 3px #000000;
+    font-size: 50px;
+    
+}
+
+
+
+.goodies{
+    width: 25%;
+    margin: 50px;
+}
+
+
+.goodies img{
+    width: 100%;
+}

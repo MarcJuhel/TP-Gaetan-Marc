@@ -30,4 +30,3 @@ foreach($pages as $page => $is)
 require_once 'menu.php';
 };
                                              
-?>

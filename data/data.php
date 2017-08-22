@@ -23,10 +23,34 @@ $pages = array(
     'panier' => array(
         'description'=>'Gerrez vos achats',
         'path'=>'panier.php',
+        ),
+        
+    ''=>array(
+    'description'=>'d\'acceuil de notre site',
+        'path'=>'',
     ),
+        
+        'logout'=>array(
+    'description'=>'Dectonnection de notre site',
+        'path'=>'logout.php',
+    ),
+        
 );
 
 
-
+$users = array(
+    'un' => array(
+        'mdp'=>md5('abc'),
+        'panier' => array(),
+    ),
+    'deux' => array(
+        'mdp'=>md5('def'),
+        'panier' => array(),
+    ),
+    'trois'=>array(
+        'mdp'=>md5('ghi'),
+        'panier' => array(),
+    ),
+);
 
 
