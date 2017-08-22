@@ -16,7 +16,7 @@ function authenticate($username, $password, $users)
         $_SESSION['user'] = $users;
         return true;
     }else return false;
-//    var_dump(md5($password),$result);
+    //    var_dump(md5($password),$result);
 }
 
 function logout(){
@@ -25,20 +25,20 @@ function logout(){
 };
 
 if(array_key_exists('user',$_POST)&&array_key_exists('mdp',$_POST)){
-    
+
     if(authenticate($_POST['user'], $_POST['mdp'], $users)){
         header('Location:panier.php');
     }
-    
-    
-    
+
+
+
 }
 
 
 if(array_key_exists('sure',$_POST)){
     if($_POST['sure']=='on'){
-        
+
         logout();
-        header('Location:index.php')
+        header('Location:index.php');
     }
 }

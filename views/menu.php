@@ -10,7 +10,7 @@ echo '<nav><ul>
 <li><a href="panier.php">PANIER</a></li>
 <li>';
 if($_SESSION['login'] == true){
-echo '<a href="logout.php">LOGOUT</a>';
+    echo '<a href="logout.php">LOGOUT</a>';
 }else{echo '<a href="login.php">LOGIN</a>';}
 echo '</li></nav> </ul>';
 

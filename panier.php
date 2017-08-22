@@ -8,7 +8,7 @@ require_once 'views/page_top.php';
 
 
 
-
+echo '<p>VOTRE COMMANDE : </p>';
 
 
 

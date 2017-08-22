@@ -3,6 +3,9 @@
  *
  */
 
+if(basename($_SERVER['REQUEST_URI'])=='TP-Gaetan-Marc-Camil'){
+    header('Location:index.php');
+}
 
 $pages = array(
   'acceuil' => array(
@@ -25,31 +28,25 @@ $pages = array(
         'path'=>'panier.php',
         ),
         
-    ''=>array(
-    'description'=>'d\'acceuil de notre site',
-        'path'=>'',
-    ),
-        
+   
         'logout'=>array(
-    'description'=>'Dectonnection de notre site',
+    'description'=>'Deconnection de notre site',
         'path'=>'logout.php',
     ),
         
+    
 );
 
 
 $users = array(
     'un' => array(
         'mdp'=>md5('abc'),
-        'panier' => array(),
     ),
     'deux' => array(
         'mdp'=>md5('def'),
-        'panier' => array(),
     ),
     'trois'=>array(
         'mdp'=>md5('ghi'),
-        'panier' => array(),
     ),
 );
 

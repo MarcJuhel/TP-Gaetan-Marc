@@ -2,6 +2,7 @@
 
 require_once('data/data.php');
 
+//var_dump(basename($_SERVER['REQUEST_URI']));
 
 foreach($pages as $page => $is)
     if($is['path']==basename($_SERVER['REQUEST_URI'])){echo
@@ -22,11 +23,11 @@ foreach($pages as $page => $is)
 <img src="image/background.jpg" id="background">
 <main>
 
-    
+
 <div id="ban">
     <a href="index.php"><img src="image/banniere.jpg"></a>
 </div>        
-<a href="http://www.index.php/"><img src= "image/logo.png" alt="" /></a>';                                           
-require_once 'menu.php';
-};
-                                             
+<a href="index.php"><img src= "image/logo.png" alt="" /></a>';                                           
+                                                       require_once 'menu.php';
+                                                      };
+

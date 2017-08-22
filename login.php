@@ -10,19 +10,19 @@ require_once '_authenticate.php';
 
 echo
     '
-    <form method="post">
-    
+    <form class="logForm" method="post">
+
     <label for="user">Username</label><input type ="username" name="user"/>
 
     <label for="mdp"/>Mot de passe</label><input type ="password" name="mdp"/> 
-    
+
     <input type ="submit" value ="Login" />
     </form>
     ';
-        
-    
-        
-        
+
+
+
+
 require_once 'views/page_bottom.php';
 echo '</body></html>';
 
