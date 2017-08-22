@@ -138,6 +138,25 @@ form.logForm{
     margin: 50px;
 }
 
+table{width: 60%;
+margin-left: 19%;
+margin-bottom: 50px;
+}
+
+table, th, td {
+   border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+      background-color: blueviolet;
+    color: white;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
 
 .goodies img{
     width: 100%;
