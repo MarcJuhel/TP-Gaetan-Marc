@@ -43,9 +43,14 @@ nav ul li{
     width: 24.2%;
     border: solid blue 2px;
     float: left;
+
+    padding: 0;
+}
+
+ul li{
     text-decoration: none;
     text-align: center;
-    padding: 0;
+
 }
 
 nav ul li a {width: 100%;

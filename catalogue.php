@@ -3,73 +3,102 @@ session_start();
 require_once 'views/page_top.php';
 require_once '_panier.php';
 
+
 ?>
 
 <form method="post">
-    <div id="figur">
-        <h2>Figurines</h2>
-        <div class="goodies">
-            <h3>kill la kill</h3>
-            <img src="image/figurine-kill-la-kill-leger.jpg" />
+    <fieldset>Filtres (check to hide)</fieldset>
+
+    <ul>
+        <li><input type="checkbox" name="Figurines"><label for="Figurine">Figurines</label></li>
+        <li><input type="checkbox" name="Posters"><label for="Posters">Posters</label></li>
+        <li><input type="checkbox" name="Goodies"><label for="Goodies">Goodies</label></li>
+    </ul>
+
+    <input type="submit">
+</form>
+
+
+<form method="post">
+    <fieldset>Produits</fieldset>
+    <?php
+
+
+    if(array_key_exists('Figurines',$_POST)){
+        $_SESSION['figurine']=$_POST['Figurines'];
+    }else {$_SESSION['figurine']='off';}
+
+    if(array_key_exists('Posters',$_POST)){
+        $_SESSION['poster']=$_POST['Posters'];
+    }else {
+        $_SESSION['poster']='off';}
+
+    if(array_key_exists('Goodies',$_POST)){
+        $_SESSION['goodies']=$_POST['Goodies'];
+    }else {
+        $_SESSION['goodies']='off';}
+
+
+    if($_SESSION['figurine']=='off') {
+
+        echo '<h2>Figurines</h2>';
+        foreach ($_SESSION['panier'] as $prod => $details) {
+            if ($details['cat'] == 'figurine') {
+                echo "
+        <div class='goodies'>
+            <h3>{$details['name']}</h3>
+            <img src='{$details['path']}' />
             <span>Consilio adventans repente adventans vestri quaeso commeatus barbaricos labores deverti consilio miretur quaeso adfatim miretur miretur vestri post si consilio</span>
-            <span>Taille: 6 pouces</span>
+            <span>Taille: {$details['taille']}</span>
             
-            <span>Prix : 15$</span>
-            <input type="number" value="0" name="KlK" />    
-        </div>
+            <span>Prix : {$details['prx']}$</span>
+            <input type=\"number\" value=\"0\" name=\"{$prod}\" />    
+        </div>";
+            }
+        };
+    }
 
-        <div class="goodies">
-            <h3>Gundam</h3>
-            <img src="image/figurine-gundam-leger.jpg" />
+
+    if($_SESSION['poster']=='off') {
+        echo '<h2>Poster</h2>';
+        foreach ($_SESSION['panier'] as $prod => $details) {
+            if ($details['cat'] == 'poster') {
+                echo "
+        <div class='goodies'>
+            <h3>{$details['name']}</h3>
+            <img src='{$details['path']}' />
             <span>Consilio adventans repente adventans vestri quaeso commeatus barbaricos labores deverti consilio miretur quaeso adfatim miretur miretur vestri post si consilio</span>
-            <span>Taille: 9 pouces</span>
-            <span>Prix : 20$</span>
-            <input type="number" value="0" name="gundam" />    
-        </div>
+            <span>Dimentions : {$details['taille']}</span>
+            
+            <span>Prix : {$details['prx']}$</span>
+            <input type=\"number\" value=\"0\" name=\"{$prod}\" />    
+        </div>";
+            }
+        };
+    }
 
-        <div class="goodies">
-            <h3>Naruto</h3>
-            <img src="image/figurine-naruto-leger.jpg" />
+    if ($_SESSION['goodies']=='off') {
+        echo '<h2>Goodies</h2>';
+        foreach ($_SESSION['panier'] as $prod => $details) {
+            if ($details['cat'] == 'Goodies') {
+                echo "
+        <div class='goodies'>
+            <h3>{$details['name']}</h3>
+            <img src='{$details['path']}' />
             <span>Consilio adventans repente adventans vestri quaeso commeatus barbaricos labores deverti consilio miretur quaeso adfatim miretur miretur vestri post si consilio</span>
-            <span>Taille: 2 pouces</span>
-            <span>Prix : 2$</span>
-            <input type="number" value="0"name="naruto" />    
-        </div>
+            <span>Poid : {$details['poid']}</span>
+            
+            <span>Prix : {$details['prx']}$</span>
+            <input type=\"number\" value=\"0\" name=\"{$prod}\" />    
+        </div>";
+            }
+        };
 
-    </div>
+    }
 
-    <div id="poster">
-        <h2>Posters</h2>
-        <div class="goodies">
-            <h3>One Piece</h3>
-            <img src="image/poster-one-piece-leger.jpg" />
-            <span>Consilio adventans repente adventans vestri quaeso commeatus barbaricos labores deverti consilio miretur quaeso adfatim miretur miretur vestri post si consilio</span>
-            <span>Dimensions: 30x90cm</span>
-            <span>Prix : 20$</span>
-            <input type="number" value="0" name="postOnepiece" />    
-        </div>
-
-        <div class="goodies">
-            <h3>Gurren Laggan</h3>
-            <img src="image/poster-gurren-laggan-leger.jpg" />
-            <span>Consilio adventans repente adventans vestri quaeso commeatus barbaricos labores deverti consilio miretur quaeso adfatim miretur miretur vestri post si consilio</span>
-            <span>Dimensions: 50x90cm</span>
-            <span>Prix : 25$</span>
-            <input type="number" value="0" name="postGurren" />    
-        </div>
+    ?>
 
 
-        <div class="goodies">
-            <h3>reborn</h3>
-            <img src="image/poster-reborn-leger.jpg" />
-            <span>Consilio adventans repente adventans vestri quaeso commeatus barbaricos labores deverti consilio miretur quaeso adfatim miretur miretur vestri post si consilio</span>
-            <span>Dimensions: 130x90cm</span>
-            <span>Prix : 19$</span>
-            <input type="number" value="0" name="postReborn" />    
-        </div>
-
-
-    </div>
 
     <input type="submit" />
 </form>

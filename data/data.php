@@ -3,7 +3,9 @@
  *
  */
 
-if(basename($_SERVER['REQUEST_URI'])=='TP-Gaetan-Marc-Camil'){
+//var_dump($_SERVER['REQUEST_URI']);
+
+if(basename($_SERVER['REQUEST_URI'])==''){
     header('Location:index.php');
 }
 
